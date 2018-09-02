@@ -1,0 +1,173 @@
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+.clear-fix:after {
+	content: '';
+	display: table;
+	width: 100%;
+}
+
+.header {
+	background: #22a2ec;
+	color: #fff;
+	padding: 30px 45px;
+}
+
+.logo {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-right: 127px;
+}
+
+.main-menu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-item {
+	float: left;
+	margin-right: 27px;
+}
+
+.main-menu li {
+	display: block;
+}
+
+.menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.phone {
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+h1 {
+	margin: 0px;
+	padding: 45px 44px 0 44px;
+}
+
+.card-container {
+	padding-top: 30px;
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cards {
+	width: 30%;
+	border: 1px solid #d6d6d6;
+	padding: 5px 25px 20px 30px;
+	margin: 0 45px 0 45px;
+}
+
+.cards:nth-child(2) {
+	border: 3px solid #d6d6d6;
+}
+.cards:nth-child(3) {
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.statement > h2 {
+	margin: 0px;
+	padding: 40px 0;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.statement {
+	margin-left: 43px;
+}
+
+input {
+	padding: 10px;
+}
+
+textarea {
+	width: 360px;
+	height: 80px;
+}
+
+.statement a {
+	padding: 10px 20px;
+
+}
+
+.info-button {
+	text-decoration: none;
+	color: #000;
+	background: #ebce0d;
+	position: relat
+	margin: 15px 0;
+}
+
+.statement-right {
+	float: left;
+	margin-left: 50px;
+	width: 33%;
+	opacity: 0.5;
+
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+.description-right {
+	display: flex;
+	background: #184c6b;
+	width: 772px;
+	height: 310px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 15px;
+}
+.opacity {
+	position: relative;
+	top: 15px;
+	opacity:0.5;
+}
+
+.image-block {
+	margin-top: 80px;
+	margin-left: 100px;
+}
+footer {
+	width: 100%;
+	background: #22a2ec;
+	margin-top: 20px;
+	color: #fff;
+	padding: 10px;
+}
+
+footer li {
+	display: inline-block;
+	margin-right: 150px;
+}
+.counter-but-one {
+	border: 2px solid white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+.text-white {
+	background: white;
+	color: #22a2ec;
+	padding: 15px 25px;
+}
